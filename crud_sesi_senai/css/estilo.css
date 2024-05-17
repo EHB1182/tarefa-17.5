@@ -1,0 +1,96 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+    background-color: rgb(207, 183, 138);
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-color: rgb(173, 148, 100);
+    color: aliceblue;
+    padding: 10px 20px;
+    text-align: center;
+}
+
+nav ul{
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li{
+    display: inline;
+    margin-right: 10px;
+    
+}
+
+nav ul li a{
+    
+    text-decoration: none;
+    padding: 8px 12px;
+    color: rgb(255, 255, 255);
+}
+
+nav ul li a:hover{
+    background-color: rgb(231, 177, 75);
+    
+}
+
+section{
+    padding: 20px;
+    margin-top: 10px;
+    background-color: rgb(182, 156, 108);
+}
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table, th, td{
+    border: 1px solid black;
+}
+
+th, td{
+    padding: 10px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+
+th{
+    background-color:rgb(156, 131, 84);
+}
+
+form {
+    display: block;
+    width: 300px;
+}
+
+label{
+    margin-top: 10px;
+    color: rgb(255, 255, 255);
+}
+
+input{
+    
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+button{
+    background-color:  rgb(173, 148, 100);
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 5px;
+    margin-top: 5px;
+}
+
+button:hover{ background-color:  rgb(231, 177, 75); }
+
+h2{
+    color: white;
+}
